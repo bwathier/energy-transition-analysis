@@ -1,0 +1,22 @@
+# =========================================================
+# fuel_colors.yaml
+# Centralized color definitions for fuels and categories
+# =========================================================
+
+fuel_colors:
+
+  individual_fuels:
+    "Petroleum Consumption (Excluding Biofuels)": "#8B4513"
+    "Natural Gas Consumption (Excluding Supplemental Gaseous Fuels)": "#FFFF99"
+    "Coal Consumption": "#FF8C00"
+    "Nuclear Electric Power Consumption": "#4682B4"
+    "Hydroelectric Power Consumption": "#00FFFF"
+    "Wind Energy Consumption": "#DAA520"
+    "Solar Energy Consumption": "#FFC0CB"
+    "Biomass Energy Consumption": "#000000"
+    "Geothermal Energy Consumption": "#FFD700"
+
+  categories:
+    fossil_fuels: "#FFD8AA"
+    renewable_energy: "#91A562"
+    nuclear_energy: "#4682B4"

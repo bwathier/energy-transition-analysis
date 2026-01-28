@@ -1,0 +1,33 @@
+# =========================================================
+# fuel_groups.yaml
+# Centralized fuel grouping definitions
+# =========================================================
+
+fuel_groups:
+
+  individual_fuels:
+    petroleum: "Petroleum Consumption (Excluding Biofuels)"
+    natural_gas: "Natural Gas Consumption (Excluding Supplemental Gaseous Fuels)"
+    coal: "Coal Consumption"
+    nuclear: "Nuclear Electric Power Consumption"
+    hydroelectric: "Hydroelectric Power Consumption"
+    wind: "Wind Energy Consumption"
+    solar: "Solar Energy Consumption"
+    biomass: "Biomass Energy Consumption"
+    geothermal: "Geothermal Energy Consumption"
+
+  categories:
+    fossil_fuels:
+      - "Petroleum Consumption (Excluding Biofuels)"
+      - "Natural Gas Consumption (Excluding Supplemental Gaseous Fuels)"
+      - "Coal Consumption"
+
+    renewable_energy:
+      - "Hydroelectric Power Consumption"
+      - "Wind Energy Consumption"
+      - "Solar Energy Consumption"
+      - "Biomass Energy Consumption"
+      - "Geothermal Energy Consumption"
+
+    nuclear_energy:
+      - "Nuclear Electric Power Consumption"

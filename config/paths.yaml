@@ -1,0 +1,52 @@
+# =========================================================
+# paths.yaml
+# Centralized project directory structure
+# =========================================================
+
+paths:
+
+  project_root: "."
+
+  data:
+    raw: "data/raw"
+    raw_monthly: "data/raw/eia_monthly"
+    raw_hourly: "data/raw/eia_hourly"
+    raw_weather: "data/raw/weather_noaa"
+    raw_dictionary: "data/raw/dictionary"
+    interim: "data/interim"
+    processed: "data/processed"
+    external: "data/external"
+
+  notebooks:
+    r: "notebooks/r"
+    python: "notebooks/python"
+    exploration: "notebooks/exploration"
+
+  src:
+    r: "src/r"
+    python: "src/python"
+    utils_r: "src/r/utils"
+    utils_python: "src/python/utils"
+
+  models:
+    r: "models/r"
+    python: "models/python"
+    comparison: "models/model_comparison"
+
+  figures:
+    static: "figures/static"
+    interactive: "figures/interactive"
+
+  logs:
+    pipeline: "logs/pipeline"
+    modeling: "logs/modeling"
+
+  plots:
+    individual: "plots/individual"
+    categories: "plots/categories"
+    forecasts: "plots/forecasts"
+
+  reports: "reports"
+  powerbi: "powerbi"
+  shiny: "shiny_app"
+  docs: "docs"

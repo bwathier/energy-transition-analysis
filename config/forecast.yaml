@@ -1,0 +1,19 @@
+# =========================================================
+# forecast.yaml
+# Global Forecast Configuration
+# =========================================================
+
+forecast:
+  horizon_years: 25 # long-term forecast horizon 
+  rocv_horizon_years: 3 # short-term ROCV evaluation horizon 
+  frequency: "month"
+
+  plotting:
+    show_linear: true
+    show_loess: true
+    date_breaks: "2 years"
+    date_format: "%Y"
+
+  paths:
+    output_categories: "plots/forecasts/categories"
+    output_fuels: "plots/forecasts/fuels"

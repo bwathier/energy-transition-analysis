@@ -1,0 +1,12 @@
+# ============================================
+# plot_theme.yaml
+# Plotting Theme Configuration
+# ============================================
+
+plot_theme:
+
+  plotting:
+    show_linear: true
+    show_loess: true
+    date_breaks: "2 years"
+    date_format: "%Y"
